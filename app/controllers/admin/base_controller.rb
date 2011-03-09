@@ -24,7 +24,7 @@ module Admin
 
     defaults :route_prefix => 'admin'
 
-    respond_to :html
+    respond_to :json, :js
 
     protected
 
